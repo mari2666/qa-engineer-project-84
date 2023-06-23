@@ -117,7 +117,7 @@
     Cart= Samsung
   steps:Samsung Universe 9
     - Пролистать каталог
-    - Перейти на страницу описания товара Huawei P30 
+    - Перейти на страницу описания товара Samsung Universe 9
     - Добавить Samsung Universe 9 в корзину 
     - Нажать кнопку Cart
   expected-result: |
