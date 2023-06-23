@@ -14,3 +14,18 @@ status: pass
 - summary: |
     - Проверка сайта на безопасность
 status: pass 
+- summary: |
+    Проверка поиска товаров по категории
+status: pass 
+- summary: |
+     Проверка процесса оформления заказа
+status: pass
+- summary: |
+     Проверка работы сайта на русском языке  
+status: pass
+- summary: |
+     Проверка корректности работы сайта на мобильном устройстве  
+status: fail
+- summary: |
+    Работа кнопки "регистрация" 
+status: fail
