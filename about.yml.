@@ -1,12 +1,11 @@
 ---
-# с помощью символа # создаются комментарии, чтобы что-то пояснить
-name: Marina shchitova # ваше имя
+name: Marina shchitova
 job: QA Engineer
 level: junior
 email: ilona@hexlet.io
 description: |
--прошла краткий курс по java 
-skills: # список навыков в виде списка, напишите что-то свое
+  -прошла краткий курс по java 
+skills:
   - функциональное тестирование
   - написание багрепортов
   - Linux
