@@ -1,10 +1,10 @@
 ---
-name: Marina shchitova
+name: Marina Shchitova
 job: QA Engineer
 level: junior
 email: ilona@hexlet.io
 description: |
-  -прошла краткий курс по java 
+  - закончила курсы хекслет Java
 skills:
   - функциональное тестирование
   - написание багрепортов
