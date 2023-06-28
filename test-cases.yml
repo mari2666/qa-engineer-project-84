@@ -16,102 +16,102 @@
 
 - summary: |
     Открывается карточка товара с подробной информацией    
- requirement: |
+  requirement: |
     Отображается цена, описание, фотографии товар
- prerequisites:
+  prerequisites:
     - Открыта главная страница интернет-магазина
- test-data: |
+  test-data: |
     no date 
- steps:
+  steps:
     - Открыть карточку любого товара.
     - Проверить содержание      карточки проверить наличие  цены, описания и фотографии товара.
- expected-result: |
+  expected-result: |
     - Отображается цена, описание, фотографии товара 
 
 
 - summary: |
     - Проверка фильтра по ключевому слову
- requirement: |
+  requirement: |
     - Отображается все товары по введеному слову
- prerequisites:
+  prerequisites:
     - Открыта страница логина
- test-data: |
+  test-data: |
    - Любое слово из списка Производителей Название товара.(iPhone)  
- steps:
+  steps:
    - Вводим В поле поиска iPhone.
- expected-result: |
+  expected-result: |
    - Пользователь должен увидеть все карточки совпадаюшие условиям поиска
     
 
 - summary: |
    - Проверка отображения добавленного товара в Корзине
- requirement: |
+  requirement: |
    - Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
- prerequisites:
+  prerequisites:
    - Открыта главная страница интернет-магазина
- test-data: |
+  test-data: |
     no data
- steps:
+  steps:
     - Выбрать товар
     - Добавить в корзину
     - Нажать кнопку «Корзина» в правом верхнем углу
- expected-result: |
+  expected-result: |
     - Товар  добавлен в корзину
       
 
 - summary: |
     Проверка поиска товаров по категории
- requirement: |
+  requirement: |
     При использовании поиска товаров по категории результат в каталоге должен отображаться корректно
- prerequisites: |
+  prerequisites: |
     Открыта страница каталога
- test-data: |
+  test-data: |
     Category = smartphones 
- steps:
+  steps:
     - Ставим категорию "Smartphones"
- expected-result: |
+  expected-result: |
     Пользователь должен увидеть в каталоге товаров только смартфоны
 
 
 - summary: |
      Проверка процесса оформления заказа
- requirement: |
+  requirement: |
     Оформление заказа должно проходить корректно
- prerequisites: |
+  prerequisites: |
     Открыта страница каталога
- test-data: |
+  test-data: |
     Cart = Iphone 9
- steps:
+  steps:
     - Нажать "Add to cart" в окне товара Iphone 9 в каталоге 
     - Нажать на кнопку "Cart"
     - Нажать на "Checkout" 
- expected-result: |
+  expected-result: |
     Заказ производится успешно. 
 
 
 - summary: |
      Проверка работы сайта на русском языке  
- requirement: |
+  requirement: |
     Сайт должен корректно работать на русском языке 
- prerequisites: |
+  prerequisites: |
     Открыта страница каталога
- test-data: |
+  test-data: |
     Language=Russian 
- steps:
+  steps:
     - Выбрать "Russian" в поле "Language"
- expected-result: |
+  expected-result: |
     Русский язык должен отображаться корректно, переводить только то, что подлежит переводу.
 
 
 - summary: |
      Проверка мобильной версии сайта  
- requirement: |
+  requirement: |
     Страницы сайта должны отображаться корректно 
- prerequisites: |
+  prerequisites: |
     Открыта страница каталога на мобильном устройстве 
- test-data: |
+  test-data: |
     Cart= Samsung
- steps: 
+  steps: 
     - Открыть Devtoolth
     - Вабрать адаптивную вёрстку 
     - Выбрать предустановленный девайс
@@ -119,5 +119,5 @@
     - Перейти на страницу описания товара Samsung Universe 9
     - Добавить Samsung Universe 9 в корзину 
     - Нажать кнопку Cart
- expected-result: |
+  expected-result: |
     Cтарница каталога, описания товара и корзины должны отображаться корректно и содержать всю информацию из версии для ПК.
