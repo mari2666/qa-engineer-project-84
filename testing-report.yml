@@ -1,29 +1,34 @@
 - summary: |
- - Проверка фильтра по цене
-status: pass 
+   Проверка фильтра по цене
+  status: pass 
+
 - summary: |
- - Открытие карточки товара
-status: pass 
+   Открытие карточки товара
+  status: pass 
+
 - summary: |
-   - Проверка фильтра по ключевому слову
-status: pass 
+    Проверка фильтра по ключевому слову
+  status: pass 
+
 - summary: |
-   - Проверка отображения добавленного товара в Корзине
-status: pass 
+    Проверка отображения добавленного товара в Корзине
+  status: pass 
     
 - summary: |
-    - Проверка сайта на безопасность
-status: pass 
+     Проверка сайта на безопасность
+  status: pass 
+
 - summary: |
     Проверка поиска товаров по категории
-status: pass 
+  status: pass 
+
 - summary: |
      Проверка процесса оформления заказа
-status: pass
+  status: pass
 - summary: |
      Проверка работы сайта на русском языке  
-status: pass
+  status: pass
+
 - summary: |
      Проверка корректности работы сайта на мобильном устройстве  
-status: fail
-
+  status: fail
