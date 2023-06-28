@@ -28,12 +28,11 @@
   actual-result: |
     Кнопки "В Корзину" разного размера
     
-
 - summary: |
       Не рабоает поиск товаров по ключевому слову.
- environment: >
-       Microsoft Edge
-      Версия 114.0.1823.58 (Официальная сборка) (64-разрядная версия)
+  environment: >
+     Microsoft Edge
+     Версия 114.0.1823.58 (Официальная сборка) (64-разрядная версия)
  steps-to-reproduce: |
       1. Открыта страница https://hexlet-products-store.vercel.app/
       2. Checkbox — In Stocs
@@ -43,7 +42,6 @@
  actual-result: |
         Отобразились бренды iPhone 9, Samsung Universe 9, 3D Embellishment Art Lamp, Dry Rose и т.д.
         
-
 - summary: |
     При нажатии на кнопку "оформить заказ" DevTools выдает ошибку 500
   environment: |
