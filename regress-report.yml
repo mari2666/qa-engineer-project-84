@@ -1,76 +1,79 @@
-- summary: |
+---
+test-cases:
+ - summary: |
    Проверка фильтра по цене
-  status: pass 
+   status: pass 
 
-- summary: |
+ - summary: |
    Открытие карточки товара
-  status: pass 
+   status: pass 
 
-- summary: |
+ - summary: |
     Проверка фильтра по ключевому слову
-  status: pass 
+   status: pass 
 
-- summary: |
+ - summary: |
     Проверка отображения добавленного товара в Корзине
-  status: pass 
+   status: pass 
     
-- summary: |
+ - summary: |
      Проверка сайта на безопасность
-  status: pass 
+   status: pass 
 
-- summary: |
+ - summary: |
     Проверка поиска товаров по категории
-  status: pass 
+   status: pass 
 
-- summary: |
+ - summary: |
      Проверка процесса оформления заказа
-  status: pass
-- summary: |
+   status: pass
+   
+ - summary: |
      Проверка работы сайта на русском языке  
-  status: pass
+   status: pass
 
-- summary: |
+ - summary: |
     Проверка мобильной версии сайта  
-  status: fail
+   status: fail
     
-- summary: |
+ - summary: |
       Фильтрация товаров по цене. Негативный сценарий
-  status: fail
+   status: fail
   
 bugreports: 
-  - summary: |
+ - summary: |
       Нет сообщения пользователю о некорректно введенных данных при фильтрации товара по цене
-    environment: |
+   environment: |
       Microsoft Edge
       Версия 114.0.1823.58 (Официальная сборка) (64-разрядная версия)
-    steps-to-reproduce: |
+   steps-to-reproduce: |
       1. вводим диапазон цены от 0 до 0
-    expected-result: |
+   expected-result: |
       Отображается сообщение пользователю о некорректно введенных данных, товары не отображаются
-    actual-result: |
+   actual-result: |
       Нет сообщения пользователю о некорректно введенных данных, товары отображаются
       
-  - summary: |
+ - summary: |
       Отсутствует кнопка "следующая" страница при переходе в режим "без категории" поиска товаров
-    environment: |
+   environment: |
       Microsoft Edge
       Версия 114.0.1823.58 (Официальная сборка) (64-разрядная версия)
-    steps-to-reproduce: |
+   steps-to-reproduce: |
       1. выбираем пустое поле в категории поиска товаров
-    expected-result: |
+   expected-result: |
       Отображение кнопки "следующая" для перехода к другим страницам с товарами
-    actual-result: |
+   actual-result: |
       Отсутствие кнопки "следующая" страница
       
-  - summary: |
+ - summary: |
       Ломается верстка сайта при выборе некоторых производителей товаров
-    environment: |
+   environment: |
      Microsoft Edge
      Версия 114.0.1823.58 (Официальная сборка) (64-разрядная версия)
-    steps-to-reproduce: |
+   steps-to-reproduce: |
       1. выбираем производителя OPPO
       2. Оцениваем внешний вид отобржаения товара
-    expected-result: |
+   expected-result: |
       Верстка не ломается
-    actual-result: |
+   actual-result: |
       Верстка ломается
